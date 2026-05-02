@@ -37,6 +37,8 @@ const LandingHeader = () => {
         <>
             <header className={`max-w-7xl w-full absolute top-0 left-1/2 -translate-x-1/2 mx-auto px-10 bg-white py-2.5 rounded-b-2xl md:rounded-2xl z-50 transition-all ease-out duration-700  ${stickyNav ? 'fixed top-0 w-full box-border bg-white shadow-[5px_3px_40px_rgba(0,72,88,0.1)] animate-smooth-nav' : 'bg-transparent'}`}>
                 <div className="flex items-center justify-between w-full my-3">
+
+                    {/* Logo */}
                     <Link href={routes.landing.root} className="font-bold flex text-2xl md:text-4xl leading-none">
                         TalentAI
                         <Image src="/assets/svg/black-sparkle.svg" alt="Sparkles" width={24} height={24} className="max-md:size-4" />
