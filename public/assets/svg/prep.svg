@@ -1,0 +1,63 @@
+<svg width="232" height="100" viewBox="0 0 232 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_11584_412)">
+<rect x="15" y="17" width="202" height="70" rx="12" fill="white"/>
+</g>
+
+<!-- Logo area (left side) - Interview/Conversation icon -->
+<g clip-path="url(#clip0_11584_412)">
+<mask id="mask0_11584_412" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="32" y="32" width="42" height="42">
+<path d="M63.5 32H42.5C36.701 32 32 36.701 32 42.5V63.5C32 69.299 36.701 74 42.5 74H63.5C69.299 74 74 69.299 74 63.5V42.5C74 36.701 69.299 32 63.5 32Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_11584_412)">
+<path d="M63.5 32H42.5C36.701 32 32 36.701 32 42.5V63.5C32 69.299 36.701 74 42.5 74H63.5C69.299 74 74 69.299 74 63.5V42.5C74 36.701 69.299 32 63.5 32Z" fill="#444CE7"/>
+<path d="M32 32H74V74H32V32Z" fill="url(#paint0_linear_11584_412)"/>
+<!-- Interview Conversation Icon (Speech Bubbles) -->
+<!-- Left speech bubble -->
+<path d="M41 46 Q37 46 37 50 L37 56 Q37 58 39 58 L47 58 L49 61 L51 58 L56 58 Q58 58 58 56 L58 50 Q58 46 54 46 L41 46 Z" fill="#FFFFFF" fill-opacity="1"/>
+<!-- Right speech bubble -->
+<path d="M52 42 Q48 42 48 46 L48 52 Q48 54 50 54 L57 54 L59 57 L61 54 L66 54 Q68 54 68 52 L68 46 Q68 42 64 42 L52 42 Z" fill="#FFFFFF" fill-opacity="0.75"/>
+<!-- Small dots for modern look -->
+<circle cx="45" cy="52" r="1.2" fill="#444CE7"/>
+<circle cx="57" cy="48" r="1.2" fill="#444CE7"/>
+</g>
+<path d="M63.5 32.875H42.5C37.1843 32.875 32.875 37.1843 32.875 42.5V63.5C32.875 68.8157 37.1843 73.125 42.5 73.125H63.5C68.8157 73.125 73.125 68.8157 73.125 63.5V42.5C73.125 37.1843 68.8157 32.875 63.5 32.875Z" stroke="url(#paint3_linear_11584_412)" stroke-width="2"/>
+</g>
+
+<!-- Text: "Interview Prep" - Adjusted for better appeal and thinner weight -->
+<g>
+  <!-- Interview -->
+  <text 
+    x="90" 
+    y="59" 
+    font-family="Arial, Helvetica, sans-serif" 
+    font-size="17" 
+    font-weight="500" 
+    fill="#000" 
+    letter-spacing="0.3px">Interview Prep</text>
+  
+</g>
+
+<defs>
+<filter id="filter0_d_11584_412" x="0" y="0" width="242" height="110" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="10"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.262745 0 0 0 0 0.262745 0 0 0 0 0.262745 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_11584_412"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_11584_412" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_11584_412" x1="53" y1="32" x2="54.75" y2="74" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0"/>
+<stop offset="1" stop-color="white" stop-opacity="0.12"/>
+</linearGradient>
+<linearGradient id="paint3_linear_11584_412" x1="53" y1="32" x2="53" y2="74" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0.12"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_11584_412">
+<rect width="42" height="42" fill="white" transform="translate(32 32)"/>
+</clipPath>
+</defs>
+</svg>

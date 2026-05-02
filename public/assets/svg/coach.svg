@@ -1,0 +1,57 @@
+<svg width="232" height="100" viewBox="0 0 232 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g filter="url(#filter0_d_11584_412)">
+    <rect x="15" y="17" width="202" height="70" rx="12" fill="white"/>
+  </g>
+
+  <g clip-path="url(#clip0_11584_412)">
+    <mask id="mask0_11584_412" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="32" y="32" width="42" height="42">
+      <path d="M63.5 32H42.5C36.701 32 32 36.701 32 42.5V63.5C32 69.299 36.701 74 42.5 74H63.5C69.299 74 74 69.299 74 63.5V42.5C74 36.701 69.299 32 63.5 32Z" fill="white"/>
+    </mask>
+    <g mask="url(#mask0_11584_412)">
+      <path d="M63.5 32H42.5C36.701 32 32 36.701 32 42.5V63.5C32 69.299 36.701 74 42.5 74H63.5C69.299 74 74 69.299 74 63.5V42.5C74 36.701 69.299 32 63.5 32Z" fill="#1860EF"/>
+      <path d="M32 32H74V74H32V32Z" fill="url(#paint0_linear_11584_412)"/>
+
+      <g transform="translate(30 35) scale(0.64)">
+        <g stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="18" y="24" width="24" height="16" rx="3.5"/>
+          <rect x="14" y="28" width="4" height="8" rx="1"/>
+          <rect x="43" y="28" width="4" height="8" rx="1"/>
+          <path d="M24 40C24 41.6569 25.3431 43 27 43H33C34.6569 43 36 41.6569 36 40V40"/>
+        </g>
+        <circle cx="26" cy="32" r="2.5" fill="white"/>
+        <circle cx="34" cy="32" r="2.5" fill="white"/>
+        <path d="M36 24V14C36 11.2386 38.2386 9 41 9H51C53.7614 9 56 11.2386 56 14V19C56 21.7614 53.7614 24 51 24H39.5L36 27.5V24Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M41 14H51" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+        <path d="M41 19H48" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+      </g>
+    </g>
+
+    <path d="M63.5 32.875H42.5C37.1843 32.875 32.875 37.1843 32.875 42.5V63.5C32.875 68.8157 37.1843 73.125 42.5 73.125H63.5C68.8157 73.125 73.125 68.8157 73.125 63.5V42.5C73.125 37.1843 68.8157 32.875 63.5 32.875Z" stroke="url(#paint3_linear_11584_412)" stroke-width="2"/>
+  </g>
+
+  <text x="87" y="60" font-family="Inter, Segoe UI, sans-serif" font-size="17" font-weight="500" fill="#1F1F1F" letter-spacing="-0.25px">AI Career Coach</text>
+
+  <defs>
+    <filter id="filter0_d_11584_412" x="0" y="0" width="242" height="110" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="2"/>
+      <feGaussianBlur stdDeviation="10"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.262745 0 0 0 0 0.262745 0 0 0 0 0.262745 0 0 0 0.1 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_11584_412"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_11584_412" result="shape"/>
+    </filter>
+    <linearGradient id="paint0_linear_11584_412" x1="53" y1="32" x2="54.75" y2="74" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0"/>
+      <stop offset="1" stop-color="white" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="paint3_linear_11584_412" x1="53" y1="32" x2="53" y2="74" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip0_11584_412">
+      <rect width="42" height="42" fill="white" transform="translate(32 32)"/>
+    </clipPath>
+  </defs>
+</svg>
