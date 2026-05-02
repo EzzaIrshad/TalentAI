@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image"
 import { motion } from "motion/react"
+import { BASE_PATH } from "@/lib/constants";
 
 const HomeHero = () => {
     return (
@@ -14,21 +15,21 @@ const HomeHero = () => {
 
                         <div className="flex">
                             <Image
-                                src="/assets/images/user-avatar-1.png"
+                                src={`${BASE_PATH}/assets/images/user-avatar-1.png`}
                                 alt="User-avatar"
                                 width={28}
                                 height={28}
                                 className="static w-7 h-auto object-cover"
                             />
                             <Image
-                                src="/assets/images/user-avatar-2.png"
+                                src={`${BASE_PATH}/assets/images/user-avatar-2.png`}
                                 alt="User-avatar"
                                 width={28}
                                 height={28}
                                 className="relative -left-1.75 w-7 h-auto object-cover"
                             />
                             <Image
-                                src="/assets/images/user-avatar-3.png"
+                                src={`${BASE_PATH}/assets/images/user-avatar-3.png`}
                                 alt="User-avatar"
                                 width={28}
                                 height={28}
@@ -68,7 +69,7 @@ const HomeHero = () => {
                     <div className="z-30 rounded-full flex items-center justify-center size-23.75 md:size-33.75 absolute bg-[linear-gradient(#4d4d4d33,#0003)]">
                         <div className="relative flex flex-col items-center justify-center size-20 md:size-30 p-3.5 rounded-full bg-[linear-gradient(#4d4d4d,#000)]">
                             <Image
-                                src="/assets/svg/star.svg"
+                                src={`${BASE_PATH}/assets/svg/star.svg`}
                                 alt="Star"
                                 width={32}
                                 height={32}
@@ -82,7 +83,7 @@ const HomeHero = () => {
 
                     {/* job cards */}
                     <Image
-                        src="/assets/svg/prep.svg"
+                        src={`${BASE_PATH}/assets/svg/prep.svg`}
                         alt="job-card"
                         width={242}
                         height={110}
@@ -90,7 +91,7 @@ const HomeHero = () => {
                     />
 
                     <Image
-                        src="/assets/images/Frame-2.png"
+                        src={`${BASE_PATH}/assets/images/Frame-2.png`}
                         alt="Hero-Bg-Image"
                         width={687}
                         height={687}
@@ -98,7 +99,7 @@ const HomeHero = () => {
                     />
 
                     <Image
-                        src="/assets/svg/skill.svg"
+                        src={`${BASE_PATH}/assets/svg/skill.svg`}
                         alt="job-card"
                         width={242}
                         height={110}
@@ -106,7 +107,7 @@ const HomeHero = () => {
                     />
 
                     <Image
-                        src="/assets/images/bg-polygon.png"
+                        src={`${BASE_PATH}/assets/images/bg-polygon.png`}
                         alt="polygon"
                         width={868}
                         height={550}
@@ -114,7 +115,7 @@ const HomeHero = () => {
                     />
 
                     <Image
-                        src="/assets/svg/job.svg"
+                        src={`${BASE_PATH}/assets/svg/job.svg`}
                         alt="job-card"
                         width={242}
                         height={110}
@@ -122,7 +123,7 @@ const HomeHero = () => {
                     />
 
                     <Image
-                        src="/assets/svg/cover.svg"
+                        src={`${BASE_PATH}/assets/svg/cover.svg`}
                         alt="job-card"
                         width={242}
                         height={92}
@@ -130,7 +131,7 @@ const HomeHero = () => {
                     />
 
                     <Image
-                        src="/assets/svg/resume.svg"
+                        src={`${BASE_PATH}/assets/svg/resume.svg`}
                         alt="job-card"
                         width={200}
                         height={92}
@@ -138,7 +139,7 @@ const HomeHero = () => {
                     />
 
                     <Image
-                        src="/assets/svg/coach.svg"
+                        src={`${BASE_PATH}/assets/svg/coach.svg`}
                         alt="job-card"
                         width={200}
                         height={92}

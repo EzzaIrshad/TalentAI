@@ -4,6 +4,7 @@ import { routes } from "@/app/routes";
 import TitleBadge from "@/ui/components/badge/title-badge";
 import Image from "next/image";
 import Link from "next/link";
+import { BASE_PATH } from "@/lib/constants";
 
 const AboutHero = () => {
     return (
@@ -35,7 +36,7 @@ const AboutHero = () => {
 
                 <div className="flex gap-5 px-13.5 max-sm:hidden">
                     <Image
-                        src="/assets/images/about/hero-img.jpg"
+                        src={`${BASE_PATH}/assets/images/about/hero-img.jpg`}
                         alt="About Image"
                         width={700}
                         height={450}
@@ -58,7 +59,7 @@ const AboutHero = () => {
                         <div className="h-full flex bg-background rounded-2xl mt-5 w-full items-center justify-center relative">
                             <div className="absolute z-10 top-3 left-[14%]">
                                 <Image
-                                    src="/assets/images/about/bg-ring.png"
+                                    src={`${BASE_PATH}/assets/images/about/bg-ring.png`}
                                     alt="Ring Image"
                                     width={250}
                                     height={250}
@@ -69,7 +70,7 @@ const AboutHero = () => {
                             <div className="z-30 rounded-full flex items-center justify-center size-23.75 md:size-33.75 absolute bg-[linear-gradient(#4d4d4d33,#0003)]">
                                 <Link href={routes.landing.contact} className="relative flex flex-col items-center justify-center size-20 md:size-30 p-3.5 rounded-full bg-[linear-gradient(#4d4d4d,#000)]">
                                     <Image
-                                        src="/assets/svg/star.svg"
+                                        src={`${BASE_PATH}/assets/svg/star.svg`}
                                         alt="Star"
                                         width={32}
                                         height={32}

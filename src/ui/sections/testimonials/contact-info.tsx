@@ -3,6 +3,7 @@ import { motion } from "motion/react"
 import TitleBadge from "@/ui/components/badge/title-badge"
 import { Mail, MapPin, Phone } from "lucide-react"
 import Image from "next/image"
+import { BASE_PATH } from "@/lib/constants";
 
 const ContactInfo = () => {
     return (
@@ -73,7 +74,7 @@ const ContactInfo = () => {
             {/* right image */ }
     <div className="max-md:hidden w-fit shrink-0 mt-2 z-20">
         <Image
-            src="/assets/images/contact-banner.jpg"
+            src={`${BASE_PATH}/assets/images/contact-banner.jpg`}
             alt="Banner image"
             width={424}
             height={600}
@@ -84,4 +85,4 @@ const ContactInfo = () => {
     )
 }
 
-export default ContactInfo
+export default ContactInfo;

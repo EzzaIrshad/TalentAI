@@ -1,4 +1,5 @@
 import { routes } from "@/app/routes"
+import { BASE_PATH } from "@/lib/constants"
 import TitleBadge from "@/ui/components/badge/title-badge"
 import PrimaryButton from "@/ui/components/buttons/primary-button"
 import Image from "next/image"
@@ -29,7 +30,7 @@ const AboutTrust = () => {
                 <div className="flex max-md:flex-col gap-5 h-full pt-10 w-full">
                     <div className="flex bg-white rounded-2xl flex-col items-start justify-between p-6 gap-10 md:gap-38.25">
                         <Image
-                            src="/assets/svg/globe.svg"
+                            src={`${BASE_PATH}/assets/svg/globe.svg`}
                             alt="Globe"
                             width={48}
                             height={48}
@@ -46,7 +47,7 @@ const AboutTrust = () => {
                         <div className="relative w-full h-full max-md:hidden">
                             <div className="absolute top-[50%] left-[40%] -rotate-[3.54deg]">
                                 <Image
-                                src="/assets/svg/rlezk.svg"
+                                src={`${BASE_PATH}/assets/svg/rlezk.svg`}
                                 alt="Companies"
                                 width={112}
                                 height={38}
@@ -55,7 +56,7 @@ const AboutTrust = () => {
                             </div>
                             <div className="absolute bottom-[5%] left-[25%]">
                                 <Image
-                                src="/assets/svg/pwettor.svg"
+                                src={`${BASE_PATH}/assets/svg/pwettor.svg`}
                                 alt="Companies"
                                 width={112}
                                 height={38}
@@ -63,7 +64,7 @@ const AboutTrust = () => {
                             </div>
                             <div className="absolute bottom-[13%] -right-[20%] -rotate-[15.15deg]">
                                 <Image
-                                src="/assets/svg/enstogrem.svg"
+                                src={`${BASE_PATH}/assets/svg/enstogrem.svg`}
                                 alt="Companies"
                                 width={112}
                                 height={38}
@@ -71,7 +72,7 @@ const AboutTrust = () => {
                             </div>
                             <div className="absolute top-[40%] -right-[35%] rotate-[14.91deg]">
                                 <Image
-                                src="/assets/svg/forabeek.svg"
+                                src={`${BASE_PATH}/assets/svg/forabeek.svg`}
                                 alt="Companies"
                                 width={112}
                                 height={38}
@@ -79,7 +80,7 @@ const AboutTrust = () => {
                             </div>
                             <div className="absolute top-[25%] right-0 rotate-[41.87deg]">
                                 <Image
-                                src="/assets/svg/pitsky.svg"
+                                src={`${BASE_PATH}/assets/svg/pitsky.svg`}
                                 alt="Companies"
                                 width={112}
                                 height={38}
@@ -94,7 +95,7 @@ const AboutTrust = () => {
 
             <div className="md:w-fit shrink-0">
                 <Image 
-                src="/assets/images/about/banner-img.jpg"
+                src={`${BASE_PATH}/assets/images/about/banner-img.jpg`}
                 alt="Banner image"
                 width={424}
                 height={592}

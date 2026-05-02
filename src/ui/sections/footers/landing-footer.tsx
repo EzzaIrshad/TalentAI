@@ -16,7 +16,7 @@
 //                     <Link href={routes.landing.root} className="font-bold text-4xl text-white leading-none flex">
 //                         TalentAI
 //                         <Image
-//                             src="/assets/svg/star.svg"
+//                             src={`${BASE_PATH}/assets/svg/star`}
 //                             alt="Sparkles"
 //                             width={23}
 //                             height={23}
@@ -36,7 +36,7 @@
 //                 <div className='my-[8vh] flex flex-col gap-4 px-5 sm:px-7.5 md:px-5 lg:px-13.5 items-center'>
 //                     <div className="inline-flex items-center gap-2 rounded-full border border-gray-200 px-3 py-2 text-sm tracking-wide font-medium text-white">
 //                         <Image
-//                             src="/assets/svg/star.svg"
+//                             src={`${BASE_PATH}/assets/svg/star`}
 //                             alt="Sparkles"
 //                             width={23}
 //                             height={23}
@@ -65,6 +65,7 @@
 
 "use client";
 import { routes } from '@/app/routes'
+import { BASE_PATH } from '@/lib/constants';
 import PrimaryButton from '@/ui/components/buttons/primary-button'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -80,7 +81,7 @@ const LandingFooter = () => {
                 <div className='flex flex-col items-center text-center gap-5 border-b border-white/10 pb-12'>
                     
                     <div className="inline-flex items-center gap-2 rounded-full border border-white/20 px-4 py-2 text-sm text-white">
-                        <Image src="/assets/svg/star.svg" alt="Sparkles" width={18} height={18} />
+                        <Image src={`${BASE_PATH}/assets/svg/star.svg`} alt="Sparkles" width={18} height={18} />
                         Start Your Journey
                     </div>
 
@@ -107,7 +108,7 @@ const LandingFooter = () => {
                     <div className="flex flex-col gap-4 mr-6">
                         <div className="flex items-center gap-1 text-2xl font-bold">
                             TalentAI
-                            <Image src="/assets/svg/star.svg" alt="Sparkles" width={18} height={18} />
+                            <Image src={`${BASE_PATH}/assets/svg/star.svg`} alt="Sparkles" width={18} height={18} />
                         </div>
 
                         <p className="text-white/70 text-sm leading-relaxed text-justify">

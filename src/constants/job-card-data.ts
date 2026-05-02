@@ -1,6 +1,8 @@
+import { BASE_PATH } from "@/lib/constants"
+
 export const jobCardData = [
   {
-    logo: "/assets/svg/companies/logo-1.svg",
+    logo: `${BASE_PATH}/assets/svg/companies/logo-1.svg`,
     company: "MarketReach Solutions",
     title: "Sales Manager",
     department: "Sales",
@@ -10,7 +12,7 @@ export const jobCardData = [
     link: "/career"
   },
   {
-    logo: "/assets/svg/companies/logo-2.svg",
+    logo: `${BASE_PATH}/assets/svg/companies/logo-2.svg`,
     company: "TechInnovate Inc.",
     title: "Software Engineer",
     department: "Tech",
@@ -20,7 +22,7 @@ export const jobCardData = [
     link: "/career"
   },
   {
-    logo: "/assets/svg/companies/logo-3.svg",
+    logo: `${BASE_PATH}/assets/svg/companies/logo-3.svg`,
     company: "DataFlow Systems",
     title: "Data Analyst",
     department: "Tech",
@@ -30,7 +32,7 @@ export const jobCardData = [
     link: "/career"
   },
   {
-    logo: "/assets/svg/companies/logo-4.svg",
+    logo: `${BASE_PATH}/assets/svg/companies/logo-4.svg`,
     company: "Creative Studios",
     title: "UX Designer",
     department: "Design",
@@ -40,7 +42,7 @@ export const jobCardData = [
     link: "/career"
   },
   {
-    logo: "/assets/svg/companies/logo-5.svg",
+    logo: `${BASE_PATH}/assets/svg/companies/logo-5.svg`,
     company: "Global Finance Corp",
     title: "Financial Analyst",
     department: "Sales",
@@ -50,7 +52,7 @@ export const jobCardData = [
     link: "/career"
   },
   {
-    logo: "/assets/svg/companies/logo-6.svg",
+    logo: `${BASE_PATH}/assets/svg/companies/logo-6.svg`,
     company: "HealthTech Solutions",
     title: "Product Manager",
     department: "Tech",

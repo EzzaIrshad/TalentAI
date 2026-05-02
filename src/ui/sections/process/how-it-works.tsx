@@ -1,6 +1,6 @@
 "use client";
 
-import React, { JSX } from 'react';
+import { JSX } from 'react';
 import TitleBadge from '@/ui/components/badge/title-badge'
 import { motion } from "motion/react"
 

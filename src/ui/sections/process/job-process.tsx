@@ -1,4 +1,5 @@
 import { processCard } from '@/constants/process-card-data'
+import { BASE_PATH } from '@/lib/constants'
 import TitleBadge from '@/ui/components/badge/title-badge'
 import { ArrowUpRight } from 'lucide-react'
 import Image from 'next/image'
@@ -21,7 +22,7 @@ const JobProcess = () => {
 
                 <div className="flex flex-col gap-4 items-center z-10 relative">
                     <Image
-                        src="/assets/images/process-bg.png"
+                        src={`${BASE_PATH}/assets/images/process-bg.png`}
                         alt='Process-Image'
                         width={1252}
                         height={425}

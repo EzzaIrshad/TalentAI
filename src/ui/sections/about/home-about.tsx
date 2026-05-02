@@ -2,6 +2,7 @@ import Image from 'next/image';
 import PrimaryButton from '@/ui/components/buttons/primary-button';
 import TitleBadge from '@/ui/components/badge/title-badge';
 import { routes } from '@/app/routes';
+import { BASE_PATH } from '@/lib/constants';
 
 const HomeAbout: React.FC = () => {
     return (
@@ -51,7 +52,7 @@ const HomeAbout: React.FC = () => {
                     {/* CENTRAL IMAGE */}
                     <div className="w-full overflow-hidden lg:shrink rounded-2xl lg:col-span-6">
                         <Image
-                            src="/assets/images/about-img.png"
+                            src={`${BASE_PATH}/assets/images/about-img`}
                             alt="Job seeker"
                             width={646}
                             height={550}

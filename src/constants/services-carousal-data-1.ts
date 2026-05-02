@@ -1,3 +1,5 @@
+import { BASE_PATH } from "@/lib/constants"
+
 export const CarousalContent1 = [
     {
         id: 1,
@@ -9,7 +11,7 @@ export const CarousalContent1 = [
             "Personalized Interview Preparation",
             "Skill Gap Analysis"
         ],
-        imageSrc: "/assets/images/service-img-1.jpg"
+        imageSrc: `${BASE_PATH}/assets/images/service-img-1.jpg`
     },
     {
         id: 2,
@@ -21,7 +23,7 @@ export const CarousalContent1 = [
             "Keyword enhancement",
             "Professional formatting"
         ],
-        imageSrc: "/assets/images/service-img-2.jpg"
+        imageSrc: `${BASE_PATH}/assets/images/service-img-2.jpg`
     },
     {
         id: 3,
@@ -33,6 +35,6 @@ export const CarousalContent1 = [
             "Real-time job updates",
             "Skill-based shortlisting"
         ],
-        imageSrc: "/assets/images/service-img-3.jpg"
+        imageSrc: `${BASE_PATH}/assets/images/service-img-3.jpg`
     }
 ]

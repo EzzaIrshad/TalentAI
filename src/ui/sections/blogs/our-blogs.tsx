@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { blogCardData } from '@/constants/blog-card-data'
 import BlogCard from '@/ui/components/cards/blog-card'
 import { routes } from '@/app/routes'
+import { BASE_PATH } from '@/lib/constants'
 
 const OurBlogs = () => {
     return (
@@ -35,7 +36,7 @@ const OurBlogs = () => {
 
                     <div>
                         <Image
-                            src="/assets/images/blog-img.jpg"
+                            src={`${BASE_PATH}/assets/images/blog-img.jpg`}
                             alt='blog image'
                             width={636}
                             height={536}

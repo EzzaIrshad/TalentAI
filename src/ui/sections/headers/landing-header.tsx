@@ -5,6 +5,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { useEffect, useState } from "react"
 import { usePathname } from "next/navigation"
+import { BASE_PATH } from "@/lib/constants"
 
 const navLinks = [
     { label: "About", href: routes.landing.about },
@@ -41,7 +42,7 @@ const LandingHeader = () => {
                     {/* Logo */}
                     <Link href={routes.landing.root} className="font-bold flex text-2xl md:text-4xl leading-none">
                         TalentAI
-                        <Image src="/assets/svg/black-sparkle.svg" alt="Sparkles" width={24} height={24} className="max-md:size-4" />
+                        <Image src={`${BASE_PATH}/assets/svg/black-sparkle.svg`} alt="Sparkles" width={24} height={24} className="max-md:size-4" />
                     </Link>
 
                     {/* menu button */}

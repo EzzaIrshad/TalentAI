@@ -26,13 +26,6 @@ const Newsletter = () => {
                                         alt='company'
                                         className='object-contain w-30 md:w-40 h-auto'
                                     />
-                                    {/* <Image
-                                        src={item.userImg}
-                                        width={45}
-                                        height={45}
-                                        alt='company'
-                                        className='object-contain w-8 md:w-11.25 h-auto rounded-full'
-                                    /> */}
                                 </div>
                             ))
                         }

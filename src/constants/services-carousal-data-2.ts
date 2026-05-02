@@ -1,3 +1,5 @@
+import { BASE_PATH } from "@/lib/constants"
+
 export const CarousalContent2 = [
     {
         id: 1,
@@ -9,7 +11,7 @@ export const CarousalContent2 = [
             "Growth strategy",
             "Personalized recommendations"
         ],
-        imageSrc: "/assets/images/service-img-4.jpg"
+        imageSrc: `${BASE_PATH}/assets/images/service-img-4.jpg`
     },
     {
         id: 2,
@@ -21,7 +23,7 @@ export const CarousalContent2 = [
             "Practice Rounds",
             "Confidence Boost"
         ],
-        imageSrc: "/assets/images/service-img-5.jpg"
+        imageSrc: `${BASE_PATH}/assets/images/service-img-5.jpg`
     },
     {
         id: 3,
@@ -33,6 +35,6 @@ export const CarousalContent2 = [
             "Personal branding improvements",
             "One-click powered applications"
         ],
-        imageSrc: "/assets/images/service-img-6.jpg"
+        imageSrc: `${BASE_PATH}/assets/images/service-img-6.jpg`
     }
 ]
