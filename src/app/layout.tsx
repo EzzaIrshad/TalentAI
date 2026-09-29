@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Neo",
-  description: "Business Automation Tool",
+  title: "TalentAI",
+  description: "AI-powered career platform",
 };
 
 export default function RootLayout({

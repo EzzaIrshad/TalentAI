@@ -13,15 +13,12 @@ export default function Home() {
             <HomeHero />
             {/* <HomeAbout /> */}
             <Features />
-            {/* <JobProcess /> */}
             <Workflow />
             <OurServices />
-            {/* <JobOpening /> */}
             <Pricing />
             <Testimonials />
             <Newsletter />
             <Faqs />
-            {/* <OurBlogs /> */}
         </>
     );
 }

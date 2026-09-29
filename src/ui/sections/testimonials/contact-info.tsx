@@ -33,7 +33,7 @@ const ContactInfo = () => {
                     </div>
                     <div>
                         <p className="text-muted-foreground font-medium text-lg 2xl:text-2xl">Call us at</p>
-                        <p className="text-sm lg:text-lg 2xl:text-xl font-medium">(+92) 3110462772</p>
+                        <p className="text-sm lg:text-lg 2xl:text-xl font-medium">(+92) 111-222-333</p>
                     </div>
                 </motion.div>
 
@@ -49,7 +49,7 @@ const ContactInfo = () => {
                     </div>
                     <div>
                         <p className="text-muted-foreground font-medium text-lg 2xl:text-2xl">Email us on</p>
-                        <p className="text-sm lg:text-lg 2xl:text-xl font-medium">info@paandaaa.com</p>
+                        <p className="text-sm lg:text-lg 2xl:text-xl font-medium">info@talentai.com</p>
                     </div>
                 </motion.div>
 
@@ -65,7 +65,7 @@ const ContactInfo = () => {
                     </div>
                     <div>
                         <p className="text-muted-foreground font-medium text-lg 2xl:text-2xl">Address</p>
-                        <p className="text-sm lg:text-lg 2xl:text-xl font-medium">Multan, Pakistan</p>
+                        <p className="text-sm lg:text-lg 2xl:text-xl font-medium">Springfield, United States</p>
                     </div>
             </motion.div>
 
